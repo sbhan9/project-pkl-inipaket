@@ -1,0 +1,305 @@
+::-webkit-input-placeholder {
+  /*WebKit, Blink, Edge */
+  color: white;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: white;
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: white;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: white;
+}
+
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.icon {
+  cursor: pointer;
+}
+
+/* navbar */
+.navbar {
+  background-color: #d00000;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-image: url("../img/background-img.png");
+  background-size: cover;
+}
+
+.jumbotron h4 {
+  text-align: center;
+  padding: 13%;
+  font-size: 25px;
+  margin: 4%;
+}
+
+/*panel menu*/
+.panel-menu {
+  text-align: center;
+  background-color: white;
+  margin-top: -8%;
+  border-radius: 20px;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  box-shadow: 0px 0px 5px grey;
+}
+
+#resi-cek {
+  display: none;
+}
+
+.panel-menu h3 {
+  font-weight: bold;
+}
+
+.lacak {
+  text-align: center;
+}
+
+.lacak input {
+  padding: 10px !important;
+  border-radius: 5px;
+  width: 50%;
+  color: white;
+  background-color: #c5c5c5;
+  height: 133% !important;
+  text-align: center;
+  font-weight: 700;
+  font-family: Montserrat;
+  letter-spacing: 0.1em;
+}
+
+.lacak button {
+  margin-top: -3px !important;
+  padding: 7px 80px;
+  background-color: #ffba08;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.lacak {
+  color: white;
+}
+
+.box-style {
+  border: 1px solid white;
+}
+
+.panel-menu-text {
+  margin-top: 3%;
+  color: #ffba08;
+}
+
+.panel-menu-text a {
+  font-weight: bold;
+  color: #ffba08;
+  text-decoration: none;
+}
+
+.panel-menu-text a:nth-child(1) {
+  padding-right: 5%;
+}
+
+.panel-menu-text a:nth-child(2) {
+  padding-left: 5%;
+}
+
+/* WELCOME BAR */
+
+.welcome {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.welcome span {
+  color: red;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: larger;
+}
+
+/* LIST PAKET */
+
+.list-paket {
+  margin-top: 6%;
+}
+
+.list-paket .row {
+  place-content: center;
+}
+
+.box {
+  box-shadow: 0px 0px 10px 0px #a79d9d;
+  border-radius: 10%;
+  text-align: center;
+  padding: 10% 10%;
+}
+
+.box h3 {
+  color: #2f80ed;
+  font-size: 36px;
+  margin-bottom: 10%;
+}
+
+.box h4 {
+  font-size: 24px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-weight: 600;
+}
+
+/* COMPANY PROFILE */
+
+#features h3 {
+  font-weight: bolder;
+  font-size: 36px;
+}
+
+/* about */
+.about h3 {
+  font-weight: bolder;
+  font-size: 36px;
+}
+.about img {
+  border-radius: 10px;
+  box-shadow: 2px 2px 11px;
+}
+.features img {
+  border-radius: 10px;
+  box-shadow: 2px 2px 11px;
+}
+/*carousel*/
+
+.carousel {
+  margin-bottom: 30px;
+  border-radius: 3%;
+}
+
+.carousel img {
+  width: 10%;
+  border-radius: 50%;
+  float: top;
+  /* margin: 50px;*/
+}
+
+.carousel h3 {
+  color: #eee;
+  margin-top: 10px;
+}
+
+.carousel p {
+  color: #eee;
+  margin-top: 10px;
+  font-family: "Montserrat";
+}
+
+.gambar-slide {
+  background-image: url(../img/backgounr-c.jpg);
+  /* background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  margin-bottom: 30px;
+  border-radius: 30px; */
+  padding-top: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+#carusel {
+  margin-top: -35%;
+}
+
+.dark {
+  background-color: #eeee;
+  padding-bottom: 3%;
+  padding-top: 5%;
+}
+
+.company-gallery h2 {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.company-gallery h5 {
+  font-size: 24px;
+}
+
+.company-gallery p {
+  margin-bottom: 5%;
+}
+
+/*footer*/
+
+.footer-atas {
+  background-color: #dddddd;
+  padding: 2%;
+}
+
+.footer-atas h3 {
+  font-weight: bolder;
+  margin-bottom: 5%;
+  font-size: 24px;
+}
+
+.footer-atas h4,
+p {
+  font-weight: bolder;
+}
+
+.footer-atas img {
+  margin-right: 5%;
+}
+
+.logo-f1 {
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+.footer {
+  padding: 0.5%;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.wa {
+  width: 35px;
+}
+
+/* for android */
+@media (max-width: 576px) {
+  .panel-menu {
+    display: none;
+  }
+  #resi-cek {
+    display: block;
+  }
+  .box {
+    margin: 3%;
+  }
+  .jumbotron h4 {
+    text-align: center;
+    padding-top: 25%;
+    font-size: 20px;
+  }
+}
